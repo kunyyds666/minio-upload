@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b1707576-c6a8-4807-b765-cf3512a5e642" name="更改" comment="upload">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/create-db.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/demo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/run-web.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/run.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/yml-config.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio-upload-api/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio-upload-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio-upload-api/src/main/java/xyz/huanggy/minio/upload/MinioUploadApiApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio-upload-api/src/main/java/xyz/huanggy/minio/upload/configuration/AmazonS3Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio-upload-api/src/main/java/xyz/huanggy/minio/upload/configuration/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio-upload-api/src/main/java/xyz/huanggy/minio/upload/configuration/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio-upload-api/src/main/java/xyz/huanggy/minio/upload/configuration/WebMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio-upload-api/src/main/java/xyz/huanggy/minio/upload/constant/MinioConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio-upload-api/src/main/java/xyz/huanggy/minio/upload/controller/MinioUploadTaskController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio-upload-api/src/main/java/xyz/huanggy/minio/upload/enums/ResultEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio-upload-api/src/main/java/xyz/huanggy/minio/upload/mapper/SysUploadTaskMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio-upload-api/src/main/java/xyz/huanggy/minio/upload/model/dto/ObjectInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio-upload-api/src/main/java/xyz/huanggy/minio/upload/model/dto/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio-upload-api/src/main/java/xyz/huanggy/minio/upload/model/dto/TaskInfoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio-upload-api/src/main/java/xyz/huanggy/minio/upload/model/dto/TaskRecordDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio-upload-api/src/main/java/xyz/huanggy/minio/upload/model/entity/SysUploadTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio-upload-api/src/main/java/xyz/huanggy/minio/upload/model/param/InitTaskParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio-upload-api/src/main/java/xyz/huanggy/minio/upload/properties/MinioProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio-upload-api/src/main/java/xyz/huanggy/minio/upload/service/SysUploadTaskService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio-upload-api/src/main/java/xyz/huanggy/minio/upload/service/impl/SysUploadTaskServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio-upload-api/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio-upload-api/src/main/resources/mapper/SysUploadTaskMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio-upload-web/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio-upload-web/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio-upload-web/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio-upload-web/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio-upload-web/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio-upload-web/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio-upload-web/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio-upload-web/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio-upload-web/src/assets/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio-upload-web/src/assets/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio-upload-web/src/assets/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio-upload-web/src/lib/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio-upload-web/src/lib/md5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio-upload-web/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio-upload-web/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio-upload-web/src/views/UploadPage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio-upload-web/vite.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/minio-upload.sql" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "kunyyds666"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/kunyyds666/minio-upload.git",
+    "accountId": "76fca162-de81-4a39-b072-28b1b03a9179"
+  }
+}]]></component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="C:\Users\28997\IdeaProjects\java\apache-maven-3.9.6" />
+        <option name="localRepository" value="C:\Users\28997\IdeaProjects\java\apache-maven-3.9.6\mvn_repo" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="showDialogWithAdvancedSettings" value="true" />
+        <option name="useMavenConfig" value="false" />
+        <option name="userSettingsFile" value="C:\Users\28997\IdeaProjects\java\apache-maven-3.9.6\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2jW0CjydU8wLJpMo4CQ3G2vYrgJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="flattenModules" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="openDirectoriesWithSingleClick" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+    <option name="sortByType" value="true" />
+    <option name="sortKey" value="BY_TYPE" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.MinioUploadApiApplication.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/28997/IdeaProjects/MavenProjects/minio-upload-master/sql/minio-upload.sql",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "项目",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "ts.external.directory.path": "X:\\IntelliJ IDEA 2023.3.4\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="MinioUploadApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="minio-upload-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="xyz.huanggy.minio.upload.MinioUploadApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="b1707576-c6a8-4807-b765-cf3512a5e642" name="更改" comment="" />
+      <created>1721487399717</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1721487399717</updated>
+      <workItem from="1721487400730" duration="2314000" />
+      <workItem from="1721523465914" duration="3737000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="upload" />
+    <option name="LAST_COMMIT_MESSAGE" value="upload" />
+  </component>
+</project>
